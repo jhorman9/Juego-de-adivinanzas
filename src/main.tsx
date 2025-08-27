@@ -5,7 +5,7 @@ import { createRoot } from 'react-dom/client'
 // import { PokemonPage } from './03-examples/PokemonPage'
 // import { FocusScreen } from './04-useRef/FocusScreen'
 // import { TasksApp } from './05-useReducer/TaskApp'
-import { ScrambleWords } from './05-useReducer/reducer/ScrambleWords'
+import { ScrambleWordsReducer } from './05-useReducer/reducer/ScrambleWordsReducer'
 import './index.css'
 
 createRoot(document.getElementById('root')!).render(
@@ -16,6 +16,6 @@ createRoot(document.getElementById('root')!).render(
     {/* <FocusScreen /> */}
     {/* <TasksApp />     */}
 
-    <ScrambleWords />
+    <ScrambleWordsReducer />
   </StrictMode>,
 )
