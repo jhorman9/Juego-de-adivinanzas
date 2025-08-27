@@ -89,7 +89,9 @@ export const ScrambleWords = () => {
         particleCount: 100,
         spread: 120,
         origin: {y: 0.6}
-      })
+      });
+      setMaxAllowErrors(3)
+      setMaxSkips(3);
       return;
 
     }
