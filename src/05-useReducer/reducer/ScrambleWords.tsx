@@ -10,35 +10,38 @@ import { SkipForward, Play } from 'lucide-react';
 import confetti from 'canvas-confetti';
 
 const GAME_WORDS = [
-  // Fáciles (3-5 letras)
-  'SOL',
-  'LUNA',
-  'GATO',
-  'FLOR',
-  'MAR',
-  'CASA',
-  'PAN',
-  'RÍO',
+  // Fáciles (cortos y comunes)
+  'NARUTO',
+  'SASUKE',
+  'SAKURA',
+  'GAARA',
+  'NEJI',
+  'LEE',
+  'INO',
+  'KIBA',
+  'SHINO',
 
-  // Medias (6-8 letras)
-  'MONTAÑA',
-  'AMIGOS',
-  'CAMINO',
-  'CIERZO',
-  'NIEVE',
-  'ESCUDO',
-  'VENTANA',
-  'PUEBLO',
+  // Medios (un poco más largos o menos comunes)
+  'KAKASHI',
+  'ITACHI',
+  'OBITO',
+  'MADARA',
+  'TSUNADE',
+  'OROCHIMARU',
+  'DEIDARA',
+  'SHIKAMARU',
+  'KONAN',
 
-  // Difíciles (9+ letras o poco comunes)
-  'HIPOPÓTAMO',
-  'ELECTRICIDAD',
-  'PARALELEPÍPEDO',
-  'METEOROLOGÍA',
-  'MICROBIOLOGÍA',
-  'TRANSCENDENCIA',
-  'INVEROSÍMIL',
-  'OTORRINOLARINGÓLOGO'
+  // Difíciles (largos o más complicados de recordar/escribir)
+  'HOSHIGAKI',      // Kisame Hoshigaki
+  'UZUMAKI',        // Apellido de Naruto
+  'UCHIHA',         // Clan de Sasuke e Itachi
+  'SARUTOBI',       // Hiruzen Sarutobi
+  'NAMIKAZE',       // Minato Namikaze
+  'JIRAIYA',
+  'KIMIMARO',
+  'TOBIRAMA',
+  'HASHIRAMA'
 ];
 
 // Esta función mezcla el arreglo para que siempre sea aleatorio
