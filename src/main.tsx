@@ -12,8 +12,9 @@ import { createRoot } from 'react-dom/client'
 // import { ClientInformation } from './08-use-suspense/ClientInformation'
 // import { getUserAction } from './08-use-suspense/api/get-user.action'
 // import { ProfesionalApp } from './09-useContext/ProfesionalApp'
+// import { TasksApp } from './05-useReducer/TaskApp'
+import { ScrambleWordsReducer } from './05-useReducer/reducer/ScrambleWordsReducer'
 import './index.css'
-import { TasksApp } from './05-useReducer/TaskApp'
 
 
 createRoot(document.getElementById('root')!).render(
@@ -22,8 +23,8 @@ createRoot(document.getElementById('root')!).render(
     {/* <HooksApp /> */}
     {/* <PokemonPage /> */}
     {/* <FocusScreen /> */}
-    <TasksApp />    
-    {/* <ScrambleWordsReducer /> */}
+    {/* <TasksApp />     */}
+    <ScrambleWordsReducer /> 
     {/* <MemoHook /> */}
     {/* <MemoCounter /> */}
     {/* <InstagromApp /> */}
